@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * swapper_list - swaps the elements of the list
+ * swapper - swaps the elements of the list
  *
  * @ptr1: first pointer
  * @ptr2: second pointer

@@ -1,6 +1,7 @@
 #include "sort.h"
 
-/*int recurse_split(int *left, int *right, int *pivot, size_t size)
+/*
+int recurse_split(int *left, int *right, int *pivot, size_t size)
 {
 	int tmp;
 
@@ -25,7 +26,7 @@
 		else
 			first_elem++;
 	}
-	
+
 	printf("first_elem: %p\n", (void *)left);
 	recurse_split(first_elem, right-1, pivot-1, size);
 	recurse_split(pivot+1, last_elem-1, last_elem, size);
@@ -42,14 +43,13 @@ void quick_sort(int *array, size_t size)
 	left = array;
 	pivot = array + (size - 1);
 	right = pivot - 1;
-	
+
 	printf("array: %p\n", (void *)left);
 	recurse_split(left, right, pivot, size);
 
-}*/
+}
+*/
 
-
-#include "sort.h"
 
 /**
  * _qsort - auxiliar function for the
