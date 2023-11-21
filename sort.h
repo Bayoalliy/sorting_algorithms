@@ -24,5 +24,19 @@ void bubble_sort(int *array, size_t size);
 void insert_node(listint_t *old_node, listint_t *new_node, listint_t **head);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
+void shell_sort(int *array, size_t size);
+void ssort(int *a, int size, int n);
+void shell_sort(int *array, size_t size);
+void cocktail_sort_list(listint_t **list);
+void counting_sort(int *array, size_t size);
+void merge_sort(int *array, size_t size);
+void heap_sort(int *array, size_t size);
+void radix_sort(int *array, size_t size);
+void bitonic_sort(int *array, size_t size);
+
+
+
 #endif
+
 
